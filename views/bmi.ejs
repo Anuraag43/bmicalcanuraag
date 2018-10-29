@@ -1,0 +1,31 @@
+<% include header %>
+<html>
+<body>
+<h1 style="margin-top: 20px;">Calculate your BMI</h1>
+<p>Please enter your Height: <input type="text" id="height" />
+    <select type="multiple" id="heightunits">
+        <option value="meters" selected="selected">Meters</option>
+        <option value="inches">Inches</option>
+        </option>
+    </select>
+</p>
+
+<p>Please enter your Weight: <input type="text" id="weight" />
+    <select type="multiple" id="weightunits">
+        <option value="Kg" selected="selected">Kilograms</option>
+        <option value="lbs">Pounds</option>
+        </option>
+
+    </select>
+</p>
+
+<button type="button" class="abc" onclick="calculateBMI()">Submit</button>
+
+<h3> Value of your BMI is: <span id="output">______________</span></h3>
+<h3> Your current condition: <span id="comment">_____________</span></h3>
+
+<script src="bmi.js"></script>
+
+
+
+<% include footer %>

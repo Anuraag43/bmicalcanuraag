@@ -1,0 +1,27 @@
+{
+    "name": "rayaan-app",
+    "version": "0.0.1",
+    "description": "BMI website",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "body-parser": "latest",
+        "cool-ascii-faces": "^1.3.4",
+        "ejs": "latest",
+        "express": "latest",
+        "morgan": "latest",
+        "nconf": "latest",
+        "nodemailer": "latest",
+        "mailgun-js": "latest",
+        "nodemailer-mailgun-transport": "latest"
+    },
+    "author": "Anuraag Naidu Sanakkayala",
+    "homepage": "https://bitbucket.org/anuraagsanakkayala/anuraag/src/master/",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/anuraagsanakkayala/anuraag/src/master/"
+    },
+    "license": "Apache-2.0"
+}
