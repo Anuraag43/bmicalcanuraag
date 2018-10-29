@@ -1,4 +1,13 @@
 
+function bmiTest(ht,wt){
+     
+    if (typeof ht !== 'number' || typeof wt !== 'number') {
+		throw Error('The given argument is not a number');
+	}
+    
+    return 0;
+}
+
 
 // user inputs
 function calculateBMI() {
@@ -10,7 +19,7 @@ function calculateBMI() {
     let ht = parseFloat(ht1);
     let wt = parseFloat(wt1);
 
-
+    bmiTest(ht,wt);
     if (ht1 === "") {
         alert("please enter a value for Height");
     }
